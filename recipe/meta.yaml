@@ -1,4 +1,4 @@
-{% set version = "0.3.26" %}
+{% set version = "0.3.29" %}
 
 package:
   name: ecmwf-opendata
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/e/ecmwf-opendata/ecmwf_opendata-{{ version }}.tar.gz
-  sha256: 8b49eed2282c167e50663b38768631a5b6d758fd947c4ea764d37433ac92523a
+  sha256: bf8a78ea71eb704884870bd234069d59caf9fb7edca794641e9be0a7d359df98
 
 build:
   number: 0
